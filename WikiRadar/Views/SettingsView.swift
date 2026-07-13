@@ -7,20 +7,24 @@ struct SettingsView: View {
     @Bindable var settings = model.settings
     NavigationStack {
       List {
-        Section("Wikipedia") {
+        Section {
           Picker("Language", selection: $settings.language) {
             ForEach(SettingsStore.languages, id: \.code) { language in
               Text(language.name).tag(language.code)
             }
           }
-          TextField("Code override (e.g. haw)",
-                    text: $settings.customLanguage)
+          TextField("Custom code", text: $settings.customLanguage)
             .textInputAutocapitalization(.never)
           Picker("Search radius", selection: $settings.radiusMeters) {
             ForEach(SettingsStore.radiusOptionsMeters, id: \.self) { radius in
               Text("\(radius / 1000) km").tag(radius)
             }
           }
+        } header: {
+          Text("Wikipedia")
+        } footer: {
+          Text("Any Wikipedia language code as custom code, e.g. " +
+               "“haw” for Hawaiian, overrides the language above.")
         }
         Section("Display") {
           Toggle("Imperial units", isOn: $settings.imperialUnits)
