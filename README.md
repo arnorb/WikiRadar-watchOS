@@ -10,6 +10,12 @@ with live distances, article intro summaries (cached for offline
 re-reading), and a radar-style compass view that points an arrow at the
 article as you walk.
 
+## Screenshots
+
+| Nearby articles | Article | Compass |
+|:---:|:---:|:---:|
+| ![Article list](screenshots/list.png) | ![Article view](screenshots/article.png) | ![Compass view](screenshots/compass.png) |
+
 ## Requirements
 
 - watchOS 10.0 or later
