@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06827FFCE2F62A786FFC091F /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98FA825F01107995AB3EE02 /* ArticleListView.swift */; };
+		071CF114F1062232AEE92C95 /* GeoMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CA1634FD0B1E87A358812 /* GeoMathTests.swift */; };
+		0B21FCB10294F1F274B96690 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA21892C06B00CB7C942A26 /* SettingsStore.swift */; };
+		0EC7B718E16A1696094BC24D /* GeoMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB41C9B24BB7E3969B74FA73 /* GeoMath.swift */; };
+		17CBFE2DBE42DE2EF0CB26E6 /* WikiRadarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F821AA6B0BDFF95703B2C973 /* WikiRadarUITests.swift */; };
+		1A5FD5A3F13E0279B446015B /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA21892C06B00CB7C942A26 /* SettingsStore.swift */; };
+		20E2434685DD5C5CCC91B995 /* WikipediaDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569F3647510583441C8E957F /* WikipediaDecodingTests.swift */; };
+		3245982024903027F5D1DB8D /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC6AFBE2D7BEC9D6CDDBFAA /* Article.swift */; };
+		35112819A5BB94D5E5846ED0 /* AutoRefreshGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4BC7858D8B85460C148C3F /* AutoRefreshGate.swift */; };
+		364B8329B76035738D1B67B6 /* ReadSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8F41F5043D3298FD4B095A /* ReadSetTests.swift */; };
+		3899A013BDCDACF4B23B6B3B /* WikipediaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F558C026392090D32D374E4 /* WikipediaClient.swift */; };
+		38C77416A89509591A14F42A /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A28E7CBE2035428C4B6319 /* LocationService.swift */; };
+		4648E23A4A8E6884F105AE34 /* AutoRefreshGateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E542BA55F3A3A02422E2B3 /* AutoRefreshGateTests.swift */; };
+		471370F77B371215612EE4B7 /* DistanceFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0123B1E10BAC6D042E93C6E3 /* DistanceFormatterTests.swift */; };
+		4E4545B8D770FCD2E537F393 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC6AFBE2D7BEC9D6CDDBFAA /* Article.swift */; };
+		4FEDD37414453279B17A1282 /* DistanceFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C61FF438B1BA0E97D284DF4 /* DistanceFormatter.swift */; };
+		6F574F21E24DB956BDEDE0A8 /* ReadSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B78C0F19155D91C38DF4535 /* ReadSet.swift */; };
+		797F4E6BB7696042A415E36B /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A28E7CBE2035428C4B6319 /* LocationService.swift */; };
+		7F902239068FD3C697AD546E /* DistanceFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C61FF438B1BA0E97D284DF4 /* DistanceFormatter.swift */; };
+		8D41FBF7BD2E9B44B72E6AA3 /* SettingsStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1AB4823351F026C250E31 /* SettingsStoreTests.swift */; };
+		9113A8BF686D582850BA1ED9 /* WikipediaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F558C026392090D32D374E4 /* WikipediaClient.swift */; };
+		911B2892E26705E7730D3714 /* WikiRadarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EEC8A0335E3C8D3A74DE0C /* WikiRadarApp.swift */; };
+		96AA291E28055A9CDAB2C68D /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827AB065F95B675E030487E /* ArticleDetailView.swift */; };
+		97808F609D4E27A707DB104C /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E5283C47F6CA0C4650DA22 /* AppModel.swift */; };
+		ADF0EE1EAEF408510C88C4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179683F64C93BE51597045A1 /* Assets.xcassets */; };
+		B0D6C12340819B153F3B81BF /* GeoMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB41C9B24BB7E3969B74FA73 /* GeoMath.swift */; };
+		B71EB67ECC43268F1B98D949 /* ReadSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B78C0F19155D91C38DF4535 /* ReadSet.swift */; };
+		CDB2D5E6661A0B0DCE1F2063 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E5283C47F6CA0C4650DA22 /* AppModel.swift */; };
+		D2991C7AA46474E76E5AC9B0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185893B4A2982A72F02A830 /* SettingsView.swift */; };
+		EC02A5EC9EF706119E9BEB18 /* AutoRefreshGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4BC7858D8B85460C148C3F /* AutoRefreshGate.swift */; };
+		FA4C05C6B17608BA21DD2050 /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFAA6072B86C861EE325F6 /* CompassView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74A3FF6809B7C9A0A022C333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170A53D4430EC3025C23AEFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD215B818FB06B6E6742B79;
+			remoteInfo = WikiRadar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0123B1E10BAC6D042E93C6E3 /* DistanceFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceFormatterTests.swift; sourceTree = "<group>"; };
+		0EA21892C06B00CB7C942A26 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		179683F64C93BE51597045A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F9CA1634FD0B1E87A358812 /* GeoMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoMathTests.swift; sourceTree = "<group>"; };
+		2B78C0F19155D91C38DF4535 /* ReadSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadSet.swift; sourceTree = "<group>"; };
+		4185893B4A2982A72F02A830 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		42EEC8A0335E3C8D3A74DE0C /* WikiRadarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiRadarApp.swift; sourceTree = "<group>"; };
+		569F3647510583441C8E957F /* WikipediaDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaDecodingTests.swift; sourceTree = "<group>"; };
+		63E5283C47F6CA0C4650DA22 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		65A28E7CBE2035428C4B6319 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		75309F5FFD8005CF1C0AB15A /* WikiRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C4BC7858D8B85460C148C3F /* AutoRefreshGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoRefreshGate.swift; sourceTree = "<group>"; };
+		7C61FF438B1BA0E97D284DF4 /* DistanceFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceFormatter.swift; sourceTree = "<group>"; };
+		7F6FEE1151E06628C431D409 /* WikiRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EFAA6072B86C861EE325F6 /* CompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
+		871B4CF421F392760D2A3F25 /* WikiRadarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiRadarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC6AFBE2D7BEC9D6CDDBFAA /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		98F1AB4823351F026C250E31 /* SettingsStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStoreTests.swift; sourceTree = "<group>"; };
+		9F558C026392090D32D374E4 /* WikipediaClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaClient.swift; sourceTree = "<group>"; };
+		A98FA825F01107995AB3EE02 /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
+		AF8F41F5043D3298FD4B095A /* ReadSetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadSetTests.swift; sourceTree = "<group>"; };
+		BB41C9B24BB7E3969B74FA73 /* GeoMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoMath.swift; sourceTree = "<group>"; };
+		C3E542BA55F3A3A02422E2B3 /* AutoRefreshGateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoRefreshGateTests.swift; sourceTree = "<group>"; };
+		F821AA6B0BDFF95703B2C973 /* WikiRadarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiRadarUITests.swift; sourceTree = "<group>"; };
+		F827AB065F95B675E030487E /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1FF5F9FEF0AB8B37F598DD89 /* WikiRadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3E542BA55F3A3A02422E2B3 /* AutoRefreshGateTests.swift */,
+				0123B1E10BAC6D042E93C6E3 /* DistanceFormatterTests.swift */,
+				1F9CA1634FD0B1E87A358812 /* GeoMathTests.swift */,
+				AF8F41F5043D3298FD4B095A /* ReadSetTests.swift */,
+				98F1AB4823351F026C250E31 /* SettingsStoreTests.swift */,
+				569F3647510583441C8E957F /* WikipediaDecodingTests.swift */,
+			);
+			path = WikiRadarTests;
+			sourceTree = "<group>";
+		};
+		32EF66FE9F646F83CF2C6F24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8BC6AFBE2D7BEC9D6CDDBFAA /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5367EE8672BF399C6A180C86 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				63E5283C47F6CA0C4650DA22 /* AppModel.swift */,
+				7C4BC7858D8B85460C148C3F /* AutoRefreshGate.swift */,
+				7C61FF438B1BA0E97D284DF4 /* DistanceFormatter.swift */,
+				BB41C9B24BB7E3969B74FA73 /* GeoMath.swift */,
+				65A28E7CBE2035428C4B6319 /* LocationService.swift */,
+				2B78C0F19155D91C38DF4535 /* ReadSet.swift */,
+				0EA21892C06B00CB7C942A26 /* SettingsStore.swift */,
+				9F558C026392090D32D374E4 /* WikipediaClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		937ACF832FD8F6BE35DC1BB8 /* WikiRadar */ = {
+			isa = PBXGroup;
+			children = (
+				179683F64C93BE51597045A1 /* Assets.xcassets */,
+				42EEC8A0335E3C8D3A74DE0C /* WikiRadarApp.swift */,
+				32EF66FE9F646F83CF2C6F24 /* Models */,
+				5367EE8672BF399C6A180C86 /* Services */,
+				E095E05E68A787446405CA53 /* Views */,
+			);
+			path = WikiRadar;
+			sourceTree = "<group>";
+		};
+		CD61A54EBF301A7252B74A8E /* WikiRadarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F821AA6B0BDFF95703B2C973 /* WikiRadarUITests.swift */,
+			);
+			path = WikiRadarUITests;
+			sourceTree = "<group>";
+		};
+		D93A4F2A9DDA3339A2930E45 = {
+			isa = PBXGroup;
+			children = (
+				937ACF832FD8F6BE35DC1BB8 /* WikiRadar */,
+				1FF5F9FEF0AB8B37F598DD89 /* WikiRadarTests */,
+				CD61A54EBF301A7252B74A8E /* WikiRadarUITests */,
+				E4FF55EA5B35457636031213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E095E05E68A787446405CA53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F827AB065F95B675E030487E /* ArticleDetailView.swift */,
+				A98FA825F01107995AB3EE02 /* ArticleListView.swift */,
+				84EFAA6072B86C861EE325F6 /* CompassView.swift */,
+				4185893B4A2982A72F02A830 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4FF55EA5B35457636031213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75309F5FFD8005CF1C0AB15A /* WikiRadar.app */,
+				7F6FEE1151E06628C431D409 /* WikiRadarTests.xctest */,
+				871B4CF421F392760D2A3F25 /* WikiRadarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8516EAA2809B28C366CD98A4 /* WikiRadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F2429CB897A8A9F07C8A50D /* Build configuration list for PBXNativeTarget "WikiRadarTests" */;
+			buildPhases = (
+				6AF47980EFE0F65BE279BB9C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WikiRadarTests;
+			packageProductDependencies = (
+			);
+			productName = WikiRadarTests;
+			productReference = 7F6FEE1151E06628C431D409 /* WikiRadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCD215B818FB06B6E6742B79 /* WikiRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7A6972D39769877B062443 /* Build configuration list for PBXNativeTarget "WikiRadar" */;
+			buildPhases = (
+				21207646355BC5F8322951B3 /* Sources */,
+				8B880698B407860D201BCA5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WikiRadar;
+			packageProductDependencies = (
+			);
+			productName = WikiRadar;
+			productReference = 75309F5FFD8005CF1C0AB15A /* WikiRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C842AC6F66BE20D977C860CA /* WikiRadarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9598250DA745669B922FF2 /* Build configuration list for PBXNativeTarget "WikiRadarUITests" */;
+			buildPhases = (
+				75AE93A2CD495E0A25404082 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				285D34D52D414C2DE27A090B /* PBXTargetDependency */,
+			);
+			name = WikiRadarUITests;
+			packageProductDependencies = (
+			);
+			productName = WikiRadarUITests;
+			productReference = 871B4CF421F392760D2A3F25 /* WikiRadarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		170A53D4430EC3025C23AEFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BCD215B818FB06B6E6742B79 = {
+						ProvisioningStyle = Automatic;
+					};
+					C842AC6F66BE20D977C860CA = {
+						TestTargetID = BCD215B818FB06B6E6742B79;
+					};
+				};
+			};
+			buildConfigurationList = 26BFF04546614EF5F77A0ACC /* Build configuration list for PBXProject "WikiRadar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D93A4F2A9DDA3339A2930E45;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD215B818FB06B6E6742B79 /* WikiRadar */,
+				8516EAA2809B28C366CD98A4 /* WikiRadarTests */,
+				C842AC6F66BE20D977C860CA /* WikiRadarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B880698B407860D201BCA5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF0EE1EAEF408510C88C4A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21207646355BC5F8322951B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97808F609D4E27A707DB104C /* AppModel.swift in Sources */,
+				3245982024903027F5D1DB8D /* Article.swift in Sources */,
+				96AA291E28055A9CDAB2C68D /* ArticleDetailView.swift in Sources */,
+				06827FFCE2F62A786FFC091F /* ArticleListView.swift in Sources */,
+				35112819A5BB94D5E5846ED0 /* AutoRefreshGate.swift in Sources */,
+				FA4C05C6B17608BA21DD2050 /* CompassView.swift in Sources */,
+				4FEDD37414453279B17A1282 /* DistanceFormatter.swift in Sources */,
+				B0D6C12340819B153F3B81BF /* GeoMath.swift in Sources */,
+				797F4E6BB7696042A415E36B /* LocationService.swift in Sources */,
+				B71EB67ECC43268F1B98D949 /* ReadSet.swift in Sources */,
+				1A5FD5A3F13E0279B446015B /* SettingsStore.swift in Sources */,
+				D2991C7AA46474E76E5AC9B0 /* SettingsView.swift in Sources */,
+				911B2892E26705E7730D3714 /* WikiRadarApp.swift in Sources */,
+				3899A013BDCDACF4B23B6B3B /* WikipediaClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF47980EFE0F65BE279BB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB2D5E6661A0B0DCE1F2063 /* AppModel.swift in Sources */,
+				4E4545B8D770FCD2E537F393 /* Article.swift in Sources */,
+				EC02A5EC9EF706119E9BEB18 /* AutoRefreshGate.swift in Sources */,
+				4648E23A4A8E6884F105AE34 /* AutoRefreshGateTests.swift in Sources */,
+				7F902239068FD3C697AD546E /* DistanceFormatter.swift in Sources */,
+				471370F77B371215612EE4B7 /* DistanceFormatterTests.swift in Sources */,
+				0EC7B718E16A1696094BC24D /* GeoMath.swift in Sources */,
+				071CF114F1062232AEE92C95 /* GeoMathTests.swift in Sources */,
+				38C77416A89509591A14F42A /* LocationService.swift in Sources */,
+				6F574F21E24DB956BDEDE0A8 /* ReadSet.swift in Sources */,
+				364B8329B76035738D1B67B6 /* ReadSetTests.swift in Sources */,
+				0B21FCB10294F1F274B96690 /* SettingsStore.swift in Sources */,
+				8D41FBF7BD2E9B44B72E6AA3 /* SettingsStoreTests.swift in Sources */,
+				9113A8BF686D582850BA1ED9 /* WikipediaClient.swift in Sources */,
+				20E2434685DD5C5CCC91B995 /* WikipediaDecodingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AE93A2CD495E0A25404082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CBFE2DBE42DE2EF0CB26E6 /* WikiRadarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		285D34D52D414C2DE27A090B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD215B818FB06B6E6742B79 /* WikiRadar */;
+			targetProxy = 74A3FF6809B7C9A0A022C333 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4700012041E37CB496F412D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = is.arnor.WikiRadarTests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		68AC27ECFA35A00BCE1C16EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		89F10BD998BAF889E6A43C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = is.arnor.WikiRadarTests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		96CE1CF6C9AFCBB6BB9D188E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WikiRadar;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Finds Wikipedia articles about places near you and points the compass at them.";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = is.arnor.wikiradar.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		9FB44821E5E07BF98FBDA8BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = is.arnor.WikiRadarUITests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = WikiRadar;
+			};
+			name = Debug;
+		};
+		ADB1CAA777875923B3164473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WikiRadar;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Finds Wikipedia articles about places near you and points the compass at them.";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = is.arnor.wikiradar.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		B3354B0B782E62341F32AF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		ECD9EE29F498AFCEB11BA228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = is.arnor.WikiRadarUITests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = WikiRadar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F2429CB897A8A9F07C8A50D /* Build configuration list for PBXNativeTarget "WikiRadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F10BD998BAF889E6A43C63 /* Debug */,
+				4700012041E37CB496F412D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		26BFF04546614EF5F77A0ACC /* Build configuration list for PBXProject "WikiRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3354B0B782E62341F32AF09 /* Debug */,
+				68AC27ECFA35A00BCE1C16EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BC7A6972D39769877B062443 /* Build configuration list for PBXNativeTarget "WikiRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CE1CF6C9AFCBB6BB9D188E /* Debug */,
+				ADB1CAA777875923B3164473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FE9598250DA745669B922FF2 /* Build configuration list for PBXNativeTarget "WikiRadarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB44821E5E07BF98FBDA8BB /* Debug */,
+				ECD9EE29F498AFCEB11BA228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 170A53D4430EC3025C23AEFF /* Project object */;
+}

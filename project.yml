@@ -1,0 +1,70 @@
+name: WikiRadar
+options:
+  bundleIdPrefix: is.arnor
+  deploymentTarget:
+    watchOS: "10.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+
+targets:
+  WikiRadar:
+    type: application
+    platform: watchOS
+    sources:
+      - WikiRadar
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: is.arnor.wikiradar.watchkitapp
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_WKApplication: YES
+        INFOPLIST_KEY_WKWatchOnly: YES
+        INFOPLIST_KEY_CFBundleDisplayName: WikiRadar
+        INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: Finds Wikipedia articles about places near you and points the compass at them.
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: "1.0"
+        ENABLE_PREVIEWS: YES
+        CODE_SIGN_STYLE: Automatic
+
+  WikiRadarTests:
+    type: bundle.unit-test
+    platform: watchOS
+    sources:
+      # Logic sources compile directly into the test bundle (no app host)
+      - WikiRadarTests
+      - WikiRadar/Models
+      - WikiRadar/Services
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+
+  WikiRadarUITests:
+    type: bundle.ui-testing
+    platform: watchOS
+    sources:
+      - WikiRadarUITests
+    dependencies:
+      - target: WikiRadar
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: WikiRadar
+
+schemes:
+  WikiRadar:
+    build:
+      targets:
+        WikiRadar: all
+        WikiRadarTests: [test]
+        WikiRadarUITests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - WikiRadarTests
+        - WikiRadarUITests
