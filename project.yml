@@ -29,6 +29,7 @@ targets:
         MARKETING_VERSION: "1.0"
         ENABLE_PREVIEWS: YES
         CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: LBF77PC3TC
 
   WikiRadarTests:
     type: bundle.unit-test
