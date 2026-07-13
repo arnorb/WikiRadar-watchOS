@@ -56,6 +56,13 @@ WikiRadarTests/        Unit tests (formatting, bearing, decoding, caching rules)
 scripts/make_icon.py   Regenerates the app icon (needs Pillow)
 ```
 
+## Thanks
+
+The original WikiRadar is by
+[Daníel Eldjárn Vilhjálmsson](https://github.com/danieleldjarn), who kindly
+open-sourced the Pebble app on request — this port wouldn't exist without
+that. Takk!
+
 ## License
 
 [MIT](LICENSE), same as the original Pebble app.
